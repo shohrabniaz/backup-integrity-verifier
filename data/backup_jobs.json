@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "name": "file-daily",
+      "success_7d": 7,
+      "attempts_7d": 7,
+      "immutable": false,
+      "offline_copy": true,
+      "restore_tested_days": 40
+    },
+    {
+      "name": "db-hourly",
+      "success_7d": 150,
+      "attempts_7d": 168,
+      "immutable": true,
+      "offline_copy": true,
+      "restore_tested_days": 5
+    },
+    {
+      "name": "laptop-users",
+      "success_7d": 2,
+      "attempts_7d": 7,
+      "immutable": false,
+      "offline_copy": false,
+      "restore_tested_days": 120
+    }
+  ]
+}
